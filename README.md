@@ -1,3 +1,1 @@
-# MVA-Net
-
-In this research, we present a lightweight multi-branch fusion architecture for music genre classification on the GTZAN dataset, integrating three data modalities: raw audio, spectrogram images, and an acoustic cube representation.
+In this research, we propose a lightweight dual-branch architecture for music genre classification on the GTZAN dataset. The model leverages both the original and inverted log mel-spectrogram representations, integrating Min–Max Pooling to capture complementary spectral characteristics. By learning from these mirrored feature spaces, the network gains richer insight into the underlying audio structure. The proposed approach achieves 85% test accuracy.
